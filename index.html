@@ -119,6 +119,22 @@
     .project-stat strong { color:var(--text); margin-right:4px; }
     .project-meta { display:flex; flex-wrap:wrap; gap:8px; margin-top:18px; }
     .project-meta span { font-size:.78rem; color:#bcd0e4; padding:6px 9px; border-radius:999px; background:rgba(255,255,255,.05); border:1px solid var(--line); }
+    .project-link {
+      display:inline-flex; align-items:center; gap:7px; margin-top:20px;
+      color:var(--accent); font-weight:800; font-size:.9rem;
+      padding:10px 14px; border:1px solid rgba(85,183,255,.24);
+      border-radius:10px; background:rgba(85,183,255,.05);
+    }
+    .project-link:hover { border-color:rgba(85,183,255,.5); transform:translateY(-1px); }
+    .project-timeline {
+      display:flex; flex-wrap:wrap; gap:8px; margin-top:12px;
+    }
+    .project-timeline span {
+      font-size:.78rem; color:#bcd0e4; padding:6px 9px;
+      border-radius:999px; background:rgba(125,226,196,.05);
+      border:1px solid rgba(125,226,196,.18);
+    }
+
     .bullets { color:var(--muted); }
     .skills { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
     .skill-card { padding:22px; border:1px solid var(--line); border-radius:16px; background:rgba(255,255,255,.025); }
@@ -302,9 +318,9 @@
       <div class="container">
         <div class="section-head">
           <div class="eyebrow">Independent &amp; Client Projects</div>
-          <h2>Systems built independently.</h2>
+          <h2>Systems and websites built for real clients.</h2>
           <p>
-            Selected business applications developed as freelance or independent projects.
+            Selected business applications and client websites developed, maintained, or redesigned as freelance or independent projects.
             Screenshots shown here have been anonymized for portfolio presentation.
             <br><br>
             <strong style="color:var(--text)">Client reach:</strong>
@@ -384,6 +400,32 @@
               <button data-img="assets/fsms-tanker-trip.png"><img src="assets/fsms-tanker-trip.png" alt="FSMS tanker trip management" loading="lazy"></button>
               <button data-img="assets/fsms-remittance.png"><img src="assets/fsms-remittance.png" alt="FSMS remittance management" loading="lazy"></button>
             </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-body">
+              <div class="project-number">05</div>
+              <h3>Plethora Creatives &amp; Communications Website</h3>
+              <div class="project-timeline">
+                <span>Originally deployed: November 24, 2022</span>
+                <span>Recent work: Design refresh</span>
+              </div>
+              <p class="muted">
+                A static corporate website developed for Plethora Creatives and Communications,
+                an integrated marketing agency based in Manila. The website was originally
+                deployed in 2022 and was recently redesigned to give the client a more modern
+                visual presentation while retaining its existing business content and identity.
+              </p>
+              <div class="project-meta">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                <span>Responsive Design</span><span>UI Redesign</span><span>Client Website</span>
+              </div>
+              <a class="project-link" href="https://plethoracomms.com/" target="_blank" rel="noopener noreferrer">
+                Visit Live Website ↗
+              </a>
+            </div>
+          </article>
+
           </article>
         </div>
       </div>
