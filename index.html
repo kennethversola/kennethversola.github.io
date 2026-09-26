@@ -119,6 +119,19 @@
     .project-stat strong { color:var(--text); margin-right:4px; }
     .project-meta { display:flex; flex-wrap:wrap; gap:8px; margin-top:18px; }
     .project-meta span { font-size:.78rem; color:#bcd0e4; padding:6px 9px; border-radius:999px; background:rgba(255,255,255,.05); border:1px solid var(--line); }
+
+    .deployment-history {
+      margin-top:16px; padding-top:14px; border-top:1px solid var(--line);
+    }
+    .deployment-history strong {
+      display:block; font-size:.78rem; text-transform:uppercase;
+      letter-spacing:.08em; color:#7de2c4; margin-bottom:8px;
+    }
+    .deployment-history ul {
+      margin:0; padding-left:18px; color:#bcd0e4; font-size:.84rem;
+    }
+    .deployment-history li { margin:5px 0; }
+
     .project-link {
       display:inline-flex; align-items:center; gap:7px; margin-top:20px;
       color:var(--accent); font-weight:800; font-size:.9rem;
@@ -333,6 +346,9 @@
             <div class="project-body">
               <div class="project-number">01</div>
               <h3>HRIS &amp; Payroll System</h3>
+              <div class="project-timeline"><span>2 Client Deployments · Since June 2022</span></div>
+              <div class="deployment-history"><strong>Deployment History</strong><ul><li>June 2022 — Client deployment</li><li>January 2023 — Client deployment</li></ul></div>
+
               <div class="project-stats"><span class="project-stat"><strong>2</strong> Clients</span></div>
               <p class="muted">A centralized human resource and payroll platform covering employee management, attendance, leave, timekeeping, payroll processing, and reporting.</p>
               <div class="project-meta"><span>PHP</span><span>JavaScript</span><span>MySQL</span><span>HRIS</span><span>Payroll</span></div>
@@ -350,6 +366,9 @@
             <div class="project-body">
               <div class="project-number">02</div>
               <h3>Sales &amp; Inventory System with Customer Management</h3>
+              <div class="project-timeline"><span>2 Client Deployments · Since 2018</span></div>
+              <div class="deployment-history"><strong>Deployment History</strong><ul><li>September 2018 — Desktop application deployed</li><li>January 2021 — Web application deployed</li><li>December 2022 — Second client deployment</li></ul></div>
+
               <div class="project-stats"><span class="project-stat"><strong>2</strong> Clients</span></div>
               <p class="muted">A business management system combining customer records, transactions, inventory monitoring, sales reporting, and profitability reporting.</p>
               <div class="project-meta"><span>PHP</span><span>JavaScript</span><span>MySQL</span><span>Sales</span><span>Inventory</span><span>Customer Management</span></div>
@@ -367,6 +386,16 @@
             <div class="project-body">
               <div class="project-number">03</div>
               <h3>Multi-Branch Retail Sales &amp; Inventory System</h3>
+              <div class="project-timeline">
+                <span>1 Client Deployment · Since July 2023</span>
+              </div>
+              <div class="deployment-history">
+                <strong>Deployment History</strong>
+                <ul>
+                  <li>July 2023 — Client deployment</li>
+                </ul>
+              </div>
+
               <div class="project-stats"><span class="project-stat"><strong>1</strong> Client</span><span class="project-stat"><strong>6</strong> Branches</span></div>
               <p class="muted">A retail management system designed around branch-level sales, POS, expenses, inventory monitoring, and consolidated reporting.</p>
               <div class="project-meta"><span>PHP</span><span>JavaScript</span><span>MySQL</span><span>Multi-Branch</span><span>POS</span><span>Inventory</span></div>
@@ -384,6 +413,9 @@
             <div class="project-body">
               <div class="project-number">04</div>
               <h3>Fuel Station Management System</h3>
+              <div class="project-timeline"><span>4 Client Deployments · Since January 2024</span></div>
+              <div class="deployment-history"><strong>Deployment History</strong><ul><li>January 2024 — Client deployment</li><li>August 2024 — Client deployment</li><li>February 2026 — Client deployment</li><li>September 2026 — Client deployment</li></ul></div>
+
               <div class="project-stats"><span class="project-stat"><strong>4</strong> Clients</span></div>
               <p class="muted">A specialized fuel-station management solution covering fuel inventory monitoring, dip readings, sales tracking, totalizer management, tanker logistics, remittance, expenses, and operational reporting.</p>
               <div class="project-meta"><span>PHP</span><span>JavaScript</span><span>MySQL</span><span>Fuel Inventory</span><span>Dip Readings</span><span>Totalizer</span><span>Remittance</span><span>Tanker Trips</span></div>
@@ -408,7 +440,7 @@
               <h3>Plethora Creatives &amp; Communications Website</h3>
               <div class="project-timeline">
                 <span>Originally deployed: November 24, 2022</span>
-                <span>Recent work: Design refresh</span>
+                <span>Design refresh: 2026</span>
               </div>
               <p class="muted">
                 A static corporate website developed for Plethora Creatives and Communications,
